@@ -5,10 +5,10 @@ $(document).ready(function() {
 
 
     for (var index = 0; index < userSentence.length; index +=1) {
-      if (userSentence[index] === 'a' || userSentence[index] === "e"|| userSentence[index] === "i"|| userSentence[index] === "o"|| userSentence[index] === "u") {
+      if (userSentence[index] === "a" || userSentence[index] === "e"|| userSentence[index] === "i"|| userSentence[index] === "o"|| userSentence[index] === "u") {
         userSentence[index] = "-";
       }  else if (userSentence[index] === "A" || userSentence[index] === "E"|| userSentence[index] === "I"|| userSentence[index] === "O"|| userSentence[index] === "U") {
-        userSentence[index] = '-';
+        userSentence[index] = "-";
       }
     };
 
